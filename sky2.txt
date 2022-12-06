@@ -1,0 +1,19 @@
+#Working with lists
+magicians=['alice', 'david', 'carolina']
+for magician in magicians:
+  print(magician)
+
+magicians=['alice', 'david', 'carolina']
+for magician in magicians:
+  print(magician.title() + ", that was a great trick!")
+
+cars=['bmw', 'audi', 'benz', 'tata']
+for car in cars:
+    print(car.title()+",these are awesome cars!")
+
+magicians=['alice', 'david', 'carolina']
+for magician in magicians:
+  print(magician.title() + ", that was a great trick!")  
+  print("i can't wait for your next trick, " + magician.title()+".\n")
+  
+print("Thankyou, everone. That was a great magic show") 
